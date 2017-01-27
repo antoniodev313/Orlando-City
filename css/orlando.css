@@ -1,3 +1,10 @@
+@font-face{
+	font-family: 'Open-Sans';
+	src: url(../fonts/Open_Sans/OpenSans-Regular.ttf);
+	font-size: 1em;
+}
+
+
 header {
 	width: 100%;
 	height: 150px;
@@ -95,5 +102,52 @@ header .header-black li a {
 }
 header #logotipo {
 	position: absolute;
-	top: -30px;
+	top: 20px;
+}
+
+#menu{
+	margin: 12px 0px;
+}
+
+#menu li{
+	display: inline-block;
+	font-family: 'Open-Sans';
+}
+
+#menu li.search{
+	width: 182px;
+}
+
+#menu li.search input{
+	background-color: #5c2d90;
+	color: #ffffff;
+	border: none;
+	height: 30px;
+	line-height: 30px;
+}
+
+#menu li.search ::-webkit-input-placeholder{
+	color: #fff;
+}
+
+#menu li.search button{
+	background: none;
+	border: none;
+	position: absolute;
+	right: 3px;
+}
+
+#menu li.search button i{
+	font-size: 14px;
+	color: rgba(255, 255, 255, .5);
+}
+
+#menu li a{
+	font-size: 16px;
+	color: #ffffff;
+	padding: 10px 20px;
+}
+
+#menu li.search .input-group{
+	top: 8px;
 }
